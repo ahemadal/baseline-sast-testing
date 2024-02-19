@@ -46,7 +46,7 @@ jobs:
          blackduck_token: ${{ secrets.BLACKDUCK_TOKEN }}
          blackduck_scan_full: false
          blackduck_prComment_enabled: true
-         github_token: ${{ secrets.GITHUB_TOKEN }}
+         github_token: ${{ secrets.GITTOKEN }}
          
   
            ### Below configuration is used to enable automatic pull request comment based on Black Duck scan result
